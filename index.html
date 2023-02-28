@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <script src="https://kit.fontawesome.com/be20ccb4b1.js" crossorigin="anonymous"></script>
+    <title>Space X</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+        <img class="logo" src="/images/Logo.png" alt="Logo">
+        <i class="fa-solid fa-bars"></i>
+        </header>
+        <div class="parent">
+           <ul class="ul">
+            <p class="list">SHIPMENT LIST</p>
+            <li class="namelist" id="namelist" onclick="Click(``)"></li>
+            <li class="burgermenu" onclick="Click('Amazon.com')" >Amazon</li>
+            <li class="burgermenu" onclick="Click('American Express')">American Express</li>
+            <li class="burgermenu" onclick="Click('Walmart')">Walmart</li>
+            <li class="burgermenu" onclick="Click('Apple')" >Apple</li>
+            </ul>
+            <input class="search"  placeholder="Search">
+            </input>
+          <div class="child">
+              <h1 id="title">TITLE</h1>
+              <h2 id="gmail">@GMAIL</h2>
+              <h3>CARGO BOXES</h3>
+              <input id="numbers" class="input"></input>
+              <h3 class="h3">Number of required cargo bays</h3>
+              <h1 id="sum" class="h1">SUM</h1>
+          </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
